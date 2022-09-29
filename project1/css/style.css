@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: green;
+}
+.testA {
+    color: #ff0000;
+}
+.test2 {
+    color: yellow
+}
+#cho {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+.divMainA {
+    margin-top: 30px;
+}
+.border {
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    /* padding: 30px; */
+    /* margin: 50px; */
+    /* margin: 30px 10px 50px 20px; */
+    padding: 30px 10px;
+    /* padding: 30px 20px 10px; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.border2 {
+    margin: 15px 35px 5px 27px;
+    padding: 7px 17px;
+}
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    background: rgb(243, 179, 42);
+}
+.block {
+    width: 100px;
+    height: 50px;
+    background: #ff0000;
+}
+.info-block .block {
+    background: rgb(62, 180, 62);
+}
+.info-block .block,
+.row .row-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-block .block.qwe123 {
+    background: #000;
+    color: #fff;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+.row .row-block {
+    background-color: aquamarine;
+    height: 200px;
+}
+.row .row-block:first-of-type {
+    width: 30%;
+}
+.row .row-block:last-of-type {
+    width: 70%;
+    background-color: #ff0000;
+}
