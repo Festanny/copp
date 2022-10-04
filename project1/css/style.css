@@ -4,6 +4,7 @@
 }
 a {
     color: green;
+    text-decoration: none;
 }
 .testA {
     color: #ff0000;
@@ -44,6 +45,8 @@ a {
     justify-content: space-between;
     /* justify-content: center; */
     /* justify-content: end; */
+    /* justify-content: space-around;
+    justify-content: space-evenly; */
     background: rgb(243, 179, 42);
 }
 .block {
@@ -81,4 +84,13 @@ a {
 .row .row-block:last-of-type {
     width: 70%;
     background-color: #ff0000;
+}
+
+.newBlock {
+    margin-top: 30px;
+}
+.newBlock .btn_a {
+    color: #ffffff;
+    padding: 20px 30px;
+    background: #ff0000
 }
